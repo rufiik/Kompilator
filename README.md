@@ -1,36 +1,42 @@
-# Kompilator JFTT
+# JFTT Compiler
 
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/)
 [![Bison](https://img.shields.io/badge/Bison-3.8-green.svg)](https://www.gnu.org/software/bison/)
 [![Flex](https://img.shields.io/badge/Flex-2.6-orange.svg)](https://github.com/westes/flex)
 
-Kompilator napisany w języku C++ (C++17), wykorzystujący narzędzia **Bison** oraz **Flex** do analizy składniowej i leksykalnej. Projekt został zrealizowany w ramach przedmiotu **Języki Formalne i Techniki Translacji (JFTT)** na 5. semestrze studiów.
+A compiler written in C++ (C++17), utilizing **Bison** and **Flex** tools for syntactic and lexical analysis. The project was developed as part of the **Formal Languages and Translation Techniques (JFTT)** course in the 5th semester of university studies.
 
-## Wyniki konkursu
+## Competition Results
 
-Projekt zajął **34. miejsce** na 74 w konkursie.
+The project ranked **34th place** out of 74 in the competition.
 
-## Technologie
+## Technologies
 
-- **C++**: standard C++17
-- **Kompilator**: g++
-- **Bison**: generowanie parsera
-- **Flex**: generowanie analizatora leksykalnego
+- **C++**: C++17 standard
+- **Compiler**: g++
+- **Bison**: Parser generation
+- **Flex**: Lexical analyzer generation
 
-## Budowanie projektu
-Aby zbudować projekt przejdź do 
+## Building the Project
+
+To build the project, navigate to:
+
 ```bash
 cd kompilator
 ```
-Użyj polecenia:
+Use the following command:
 ```bash
 make all 
 ```
-Uruchom kompilator, podając plik wejściowy i wyjściowy:
+## Running the Compiler
+
+Run the compiler by providing input and output files:
 ```bash
 ./kompilator input output
 ```
-Uruchom maszynę wirtualną na wygenerowanym pliku:
+## Running the Virtual Machine
+
+Execute the generated file on the virtual machine:
 ```bash
 ./maszyna-wirtualna-cln output
 ```
