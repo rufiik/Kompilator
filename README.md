@@ -18,9 +18,11 @@ Projekt zajął **34. miejsce** na 74 w konkursie.
 - **Flex**: generowanie analizatora leksykalnego
 
 ## Budowanie projektu
-
-Aby zbudować projekt, użyj polecenia w katalogu głównym:
-
+Aby zbudować projekt przejdź do 
+```bash
+cd kompilator
+```
+Użyj polecenia:
 ```bash
 make all 
 ```
