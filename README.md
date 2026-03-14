@@ -26,7 +26,6 @@ Użyj polecenia:
 ```bash
 make all 
 ```
- Uruchomienie
 Uruchom kompilator, podając plik wejściowy i wyjściowy:
 ```bash
 ./kompilator input output
